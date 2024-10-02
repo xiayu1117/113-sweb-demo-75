@@ -2,9 +2,56 @@ body {
   background-color: rgb(158, 224, 250);
 }
 
-.icon {
+.card {
+  background-color: #fcfcf3;
+  max-width: 220px;
+  border: 2px solid transparent;
+  margin: 32px auto;
+  padding: 24px 32px;
+  text-align: center;
+  border-radius: 25px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.card-1{
+  border-color: rgba(106, 133, 255, 0.5);
+}
+
+.card-2{
+  border-color: rgba(255, 133, 192, 0.5)
+}
+
+.icon{
   width: 50px;
   height: 50px;
-  background-color: #2af9b0;
   border-radius: 50px;
+  margin: 0 auto;
+}
+
+.card-1 .icon {
+  background-color: #6a85ff;
+}
+
+.card-2 .icon {
+  background-color: #ff85c0;
+}
+
+.btn {
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 6px 10px;
+  border-radius: 8px;
+  border-color: transparent;
+}
+
+.btn-1 {
+  color: #6a85ff;
+  background-color: rgba(106, 133, 255, 0.4);
+  border-color: rgba(106, 133, 255, 0.88);
+}
+
+.btn-2 {
+  color: #ff79ba;
+  background-color: rgba(255, 133, 192, 0.4);
+  background-color: rgba(255, 133, 192, 0.88);
 }
